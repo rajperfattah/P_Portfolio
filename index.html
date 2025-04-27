@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6ed8a6ab38.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="f2.png" alt=""class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+
+                    <li><a href="#about">About</a></li>
+
+                    <li><a href="#services">Services</a></li>
+
+                    <li><a href="#portfolio">Portfolio</a></li>
+
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark l1" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars l1" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-Text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Abdul Fattah</span> From <br> Karachi Sindh Pakistan</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About----------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="fatah1.jpg" alt="">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm Abdul Fattah — a passionate Software Engineer who recently graduated from university.
+                        I specialize in Java technologies and Front-End Web Development, blending strong programming skills with a creative eye for design. From building robust back-end solutions to crafting responsive and engaging user interfaces, I love turning ideas into reality through clean, efficient code.
+                        I'm always eager to learn new technologies, take on challenging projects, and collaborate with teams to build innovative solutions that make a real impact.
+                        
+                        Let's connect and create something amazing together!<p>
+                    <div class="tabtitles">
+                        <p class="tablinks activelink" onclick="opentab('skills')" >Skills</p>
+                        <p class="tablinks" onclick="opentab('experence')">Experence</p>
+                        <p class="tablinks" onclick="opentab('education')">Educations</p>
+                    </div>
+
+                    <!-- skills----------------------- -->
+                    <div class="tabcontents active-tab" id="skills">
+                       <ul>
+                        <li><span>
+                            Front-End Development
+                        </span><br>Development and designing fully responsive and interactive Web pages and Websites.I know all about Front-End is include following technologies 
+                    Html , Css , JavaScript , JQuery , Bootstrap</li>
+
+                        <li><span>
+                            Java Technologies
+                        </span><br>Strong Grift on several Java Based Technologies,
+                    The technologies i have knowledge about are ,
+                Core Java , Java OOP , Java Collections , Java-8 , JDBC , JSP , Servelets , My sql and Spring Boot.  </li>
+
+                        <li><span>
+                            General IT skills
+                        </span><br>I am familiar with different tools and techniques related to it field , i have hands on experence on MS Excel , MS World ,MS Power Point,
+                    Git and GitHub , Visual Studio Code</li>
+                       </ul> 
+                    </div>
+                    <!-- experience----------------------- -->
+                    <div class="tabcontents" id="experence">
+                        <ul>
+                            <li><span>2020-2024</span><br>study and practical experence at university</li>
+                            <li><span>2024-present</span><br>Learning and working independently</li>
+                        
+                        </ul>
+                    </div>
+
+                    <!-- education----------------------- -->
+                    <div class="tabcontents" id="education">
+                        <ul>
+                            <li><span>2018-2020</span><br>Intermediate in Engineering <br>(G.B.H.S.S Mehrabpur)</li>
+                            <li><span>2020-2024</span><br>Bachelor's in Software Engineering <br>(Quaid-e-Awam University of Engineering Science and Technology Nawabshah)</li>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Services-------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="serviceslist">
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-End Web Development</h2>
+                    <p>I offer professional front-end web development services, creating beautiful, responsive, and user-friendly websites.
+                        Whether you need a personal website, business landing page, or a full-fledged web application, I bring your ideas to life using the latest web technologies like HTML, CSS, JavaScript, and modern frameworks.
+                        I focus on clean code, smooth user experience (UX), and pixel-perfect design to ensure your online presence stands out and performs at its best.
+                        
+                        Let's work together to build a stunning digital experience for your brand or project!</p>
+                    <a href="https://medium.com/@pantamilan2021/the-essential-guide-to-frontend-technical-documentation-232ea187919a">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Java Development</h2>
+                    <p>I specialize in developing robust and scalable back-end applications using core Java technologies such as JDBC, Servlets, JSP, and Spring Boot.
+                        From building RESTful APIs to creating complete web and enterprise solutions, I focus on writing clean, efficient, and maintainable code that ensures long-term project success.
+                        With a strong understanding of software architecture and design patterns, I deliver high-performance applications tailored to business needs.</p>
+                    <a href="https://www.oracle.com/java/technologies/javase-documentation.html">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2> General Computer Services</h2>
+                    <p>I provide a variety of computer-related services to help individuals and businesses work smarter and faster.
+                        My services include installing and troubleshooting operating systems (Windows, Linux), working with Microsoft Office tools like Word, Excel, and PowerPoint, basic graphic designing, and guiding clients in using modern AI tools for writing, design, and productivity.
+                        Whether it's setting up systems, creating professional documents, designing simple graphics, or exploring AI-based solutions, I offer reliable support tailored to your needs.</p>
+                    <a href="https://www.gctech.com/contact-us.html">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!---portfolio----------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="portfolio12.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Simple Portfolio</h3>
+                        <p>I created my first project a Portfolio website as a learner i made it attractive ,fully functional and roubustic. <br>you can visit it here</p>
+                        <a href="https://rajperfattah.github.io/Abdul_Portfolio/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="calculator12.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>This was my amazing experence while creating a fully functional calculator, i was always surprised and used to think how the calculator is actually working , bit now i am able to create web apps like calculator myself .</p>
+                        <a href="https://rajperfattah.github.io/Calculator/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="figma12.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Figma Design static website</h3>
+                        <p>I Developed a static website which was a design generated from figma ,just to polish my front-end technical power i made it exactly same as it was designed .</p>
+                        <a href="https://rajperfattah.github.io/FirstProject/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div> 
+                </div>
+
+
+            
+
+
+            </div>
+            <a href="#" class="btn" id="b1">See more</a>
+
+        </div>
+    </div>
+
+    <!-- contact--------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-envelope"></i>abdulfattah1123mojai@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>03233749550</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/1DU2ygAZYt/"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/in/abdul-fattah12/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/rajperfattah"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="abdul's CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" placeholder="Your Name" required name="name">
+                        <input type="email" placeholder="Your Email" required name="email">
+                        <textarea name="message" id="" required rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                       
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2023 Abdul Fattah. All rights reserved.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+<!-- here starts script tag-------- -->
+    <script>
+        var tablinks = document.querySelectorAll('.tablinks');
+        var tabcontents=document.getElementsByClassName('tabcontents');
+
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove('activelink');
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove('active-tab');
+            }
+
+            event.currentTarget.classList.add('activelink');
+            document.getElementById(tabname).classList.add('active-tab');
+        }
+    </script>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxNWi1LEDRY8A0mFs0Nd1SV3gqlmu93EbdyGOXab0zmrxxwCSrkf53auwjfLH0q86vG/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully!"
+                setTimeout(function(){
+                    msg.innerHTML="";
+                },3000)
+                form.reset();
+            })
+        })
+        .catch(error => console.error('Error!', error.message));
+        
+      </script>
+
+
+<script>
+    $(document).ready(function(){
+        $('#b1').click(function(){
+           document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'});
+        });
+    });
+</script>
+</body>
+</html>
